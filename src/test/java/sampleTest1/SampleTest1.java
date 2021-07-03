@@ -21,7 +21,7 @@ public class SampleTest1 {
 		wd.manage().window().maximize();
 		wd.get("https://www.google.com/");
 		
-		// interfaces == webdriver, takescreenshot , outputType
+		// interfaces == webdriver, takescreenshot , outputType/
 		
 File src= ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		
